@@ -15,7 +15,8 @@
 using namespace std;
 #include <string>
 
-#include "Date.h"
+#include "Calendar.h"
+#include "Event.h"
 
 #define MAX_ARR_SIZE  128
 
@@ -25,17 +26,24 @@ void printCalendar(Date arr[MAX_ARR_SIZE], int);
 
 int main()
 {
-  Date   calendar[MAX_ARR_SIZE];
+  Calendar   calendar[MAX_ARR_SIZE];
   int    numDates = 0;
-  int    day, month, year;
+  int    day, month, year, hour, minute;
   int    menuSelection;
+  string name;
 
   while (1) {
     menuSelection = mainMenu();
 
-    if (menuSelection == 0) 
+    if (menuSelection == 0)
       break;
     else if (menuSelection == 1) {
+      cout << "name: ";
+      getline(cin, name);
+      cout << "hour:   ";
+      cin  >> hour;
+      cout << "minute:   ";
+      cin  >> minute;
       cout << "day:   ";
       cin  >> day;
       cout << "month: ";
@@ -43,13 +51,14 @@ int main()
       cout << "year:  ";
       cin  >> year;
 
-      calendar[numDates].set(day, month, year);
+      Event* temp = new Event(name, day, month, year, hour, minute);
+      //calendar[numDates].set(day, month, year, hour, minute);
       ++numDates;
     }
   }
 
   if (numDates > 0)
-    printCalendar(calendar, numDates);
+    //printCalendar(calendar, numDates);
 
   return 0;
 }
@@ -80,4 +89,3 @@ void printCalendar(Date arr[MAX_ARR_SIZE], int num)
 
   cout << endl;
 }
-
