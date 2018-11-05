@@ -24,7 +24,7 @@ void Calendar::add(Event* e)
 {
     int i = 0;
     Date d = e->getDate();
-    while(events[i]->getDate().lessThan(d){
+    while(events[i]->getDate().lessThan(d)){
       i++;
     }
 
