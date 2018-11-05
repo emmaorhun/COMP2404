@@ -1,7 +1,17 @@
+/*
+Emma Orhun
+101071651
+09/09/18
+COMP2404
+Assignment 1
+*/
+
 #ifndef DATE_H
 #define DATE_H
 
 #include "Time.h"
+
+//The date class is used to manage the specificities behind a calendar date and store all time data
 
 class Date
 {
