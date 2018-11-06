@@ -1,9 +1,9 @@
 /*
-Emma Orhun
+Modifications: Emma Orhun
 101071651
-09/09/18
+06/11/18
 COMP2404
-Assignment 1
+Assignment 2
 */
 
 #define MAX_ARR_SIZE  128
@@ -11,23 +11,25 @@ Assignment 1
 #ifndef CALENDAR_H
 #define CALENDAR_H
 
-#include "Calendar.h"
 #include "Event.h"
+#include "List.h"
 
-//The calendar class tores an array of users events pointers in chronological order and outputs them
+//The calendar class stores an array of users events pointers in chronological order and outputs them
 
 class Calendar
 {
   public:
     Calendar(string="");
     ~Calendar();
-    void add(Event*);
     void print();
+    void set(string);
+    void add(Event *);
+
 
   private:
-    string name;
     int num_events;
-    Event* events[MAX_ARR_SIZE];
+    string name;
+    List events;
 };
 
 #endif
