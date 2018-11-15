@@ -1,7 +1,7 @@
 /*
 Emma Orhun
 101071651
-06/11/18
+09/09/18
 COMP2404
 Assignment 1
 */
@@ -18,7 +18,6 @@ class Time
     void set(int, int, int);
     void print();
     bool lessThan(Time&);
-    void format(string &);
 
   private:
     int hours;

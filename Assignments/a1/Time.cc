@@ -7,7 +7,6 @@ Assignment 1
 */
 
 #include <iostream>
-#include <sstream>
 #include <iomanip>
 #include <string>
 using namespace std;
@@ -46,15 +45,4 @@ void Time::print()
   cout<<setfill('0')<<setw(2)<<hours<<":"
       <<setfill('0')<<setw(2)<<minutes<<":"
       <<setfill('0')<<setw(2)<<seconds<<endl;
-}
-
-void Time::format(string &outStr)
-{
-  //prints given time
-  //str += 
-  stringstream temp;
-  temp <<setfill('0')<<setw(2)<<hours<<":"
-      <<setfill('0')<<setw(2)<<minutes<<":"
-      <<setfill('0')<<setw(2)<<seconds<<endl;
-  outStr += temp.str();
 }

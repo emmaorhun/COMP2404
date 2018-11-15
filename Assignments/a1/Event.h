@@ -1,7 +1,7 @@
 /*
 Emma Orhun
 101071651
-06/11/18
+09/09/18
 COMP2404
 Assignment 1
 */
@@ -21,7 +21,6 @@ class Event {
     void print();
     Date getDate();
     void setDate(int=0,int=0,int=0,int=0,int=0);
-    void format(string &);
 
   private:
     Date date;
