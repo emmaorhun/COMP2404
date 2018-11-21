@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.java": "java",
+        "iosfwd": "cpp",
+        "sstream": "cpp",
+        "istream": "cpp",
+        "streambuf": "cpp",
+        "iostream": "cpp"
+    }
+}
