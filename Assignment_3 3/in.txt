@@ -1,0 +1,136 @@
+1
+Work
+Ramen Lunch
+20
+9
+2021
+17
+35
+4
+1
+Work
+Counter-Strike
+3
+8
+2018
+21
+0
+3
+1
+School
+Meet With Friends
+20
+10
+1990
+11
+45
+7
+1
+Work
+Afternoon Meeting
+19
+8
+2018
+12
+0
+5
+1
+Work
+Go Downtown
+4
+11
+2020
+23
+45
+5
+1
+School
+Eat at The Works
+12
+1
+2021
+17
+20
+9
+1
+School
+Christmas Craft Show
+26
+11
+1989
+9
+0
+2
+1
+Work
+Line Dancing Tutorial
+21
+9
+1977
+7
+48
+23
+1
+School
+Bingo
+20
+7
+2000
+20
+40
+3
+1
+Work
+Card Party
+5
+1
+1948
+19
+32
+7
+1
+Work
+Go For A Drive
+20
+7
+2000
+20
+40
+9
+1
+School
+Maple Syrup Festival
+9
+3
+2102
+10
+0
+5
+1
+Work
+Arrive In Tokyo
+12
+10
+2022
+21
+8
+2
+1
+School
+Watch Movie
+4
+1
+1999
+0
+0
+3
+1
+Work
+Go To Landmark Tower
+14
+10
+2022
+12
+10
+5
+0
